@@ -58,7 +58,6 @@ Modify the parameter in the `arguments.py` file. Then run `train.py`:
 
 ```
 python train.py --dataset f30k --vit_type ./save/vit-base --batch_size 128
-
 ```
 
 ## Evaluate Models
