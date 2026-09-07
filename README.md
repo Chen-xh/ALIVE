@@ -54,7 +54,7 @@ data
 
 ## Train Models
 
-Modify the data_name, data_path and feature path in the `arguments.py` file. Then run `train.py`:
+Modify the parameter in the `arguments.py` file. Then run `train.py`:
 
 ```
 python train.py --dataset f30k --vit_type ./save/vit-base --batch_size 128
@@ -63,7 +63,7 @@ python train.py --dataset f30k --vit_type ./save/vit-base --batch_size 128
 
 ## Evaluate Models
 
-Modify the model_path and data_path in the `eval.py` file. Then run `eval.py`:
+Modify the parameter in the `eval.py` file. Then run `eval.py`:
 
 ```
 python eval.py
